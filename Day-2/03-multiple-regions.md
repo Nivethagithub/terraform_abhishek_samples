@@ -5,7 +5,7 @@ terraform.
 
 ```
 provider "aws" {
-  alias = "us-east-1"
+  alias = "us-east-1"   ### This alias value can be anything.
   region = "us-east-1"
 }
 
