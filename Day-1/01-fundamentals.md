@@ -40,7 +40,7 @@ There are multiple reasons why Terraform is used over the other IaC tools but be
 
 ## init → plan → apply → destroy
 
-**terraform init**: Initializes the working directory, downloads providers, sets up the backend.
-**terraform plan**: Shows the execution plan. Highlights what Terraform will create, change, or destroy.
-**terraform apply:** Applies the changes required to reach the desired state as defined in your .tf files.
-**terraform destroy:** Destroys the infrastructure defined in your configuration files.
+1. **terraform init**: Initializes the working directory, downloads providers, sets up the backend.
+2. **terraform plan**: Shows the execution plan. Highlights what Terraform will create, change, or destroy.
+3. **terraform apply:** Applies the changes required to reach the desired state as defined in your .tf files.
+4. **terraform destroy:** Destroys the infrastructure defined in your configuration files.
